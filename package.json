@@ -1,17 +1,16 @@
 {
   "name": "@d4lton/pkghash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "bin": {
     "pkghash": "bin/pkghash.js"
   },
   "main": "bin/pkghash.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
