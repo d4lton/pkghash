@@ -6,7 +6,10 @@
     "pkghash": "bin/pkghash.js"
   },
   "main": "bin/pkghash.js",
-  "scripts": {},
+  "scripts": {
+    "patch": "npm --no-git-tag-version version patch",
+    "postversion": "git commit -m \"$npm_package_name $npm_package_version\" && git push"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
