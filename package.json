@@ -1,13 +1,12 @@
 {
   "name": "@d4lton/pkghash",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "bin": {
     "pkghash": "bin/pkghash.js"
   },
   "main": "bin/pkghash.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
