@@ -1,5 +1,5 @@
 {
-  "name": "pkghash",
+  "name": "@d4lton/pkghash",
   "version": "1.0.0",
   "description": "",
   "bin": {
@@ -11,5 +11,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }
